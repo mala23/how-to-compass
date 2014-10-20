@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title Rock, Paper, Scissors
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    / MAIN CSS 
+    %link{:href => "styles/css/main.css", :media => "screen", :rel =>"stylesheet"}/
+    / JS
+    %script{:src => 
+  %body
+    %header
+      %h1 Rock, Paper, Scissors
+        %h2 a browser-game based on Sinatra
+    %main
+      %p Choose your gesture:
+      %form
+        %input{:type => 'submit', :name => 'Rock'}/
+        %input{:type => 'submit', :name => 'Paper'}/
+        %input{:type => 'submit', :name => 'Scissors'}/
+    %footer
+      %p Built by mala23.
